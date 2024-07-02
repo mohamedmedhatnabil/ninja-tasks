@@ -1,0 +1,40 @@
+div{
+    color: rgb(145, 0, 0);
+    border: 2px solid rgb(1, 72, 72);
+    margin:40px;
+}
+p{
+    border: inherit;
+    margin: inherit;
+    color:blueviolet;
+}
+div .error{
+    background-color: red;
+}
+div p{
+    background-color: aquamarine;
+}
+p{
+    background-color: burlywood;
+}
+a[href="https://www.wikipedia.org/"]{
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a[href*="google"]{
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a[href$=".com/"]{
+    background-color: rgb(8, 37, 179);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
